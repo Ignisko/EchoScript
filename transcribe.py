@@ -20,8 +20,6 @@ try:
 except Exception as e:
     print(f"Error: {e}")
 
-# The rest of your code continues here...
-
 def convert_to_wav(file_path):  
     try:
         audio = AudioSegment.from_file(file_path, format="m4a")
